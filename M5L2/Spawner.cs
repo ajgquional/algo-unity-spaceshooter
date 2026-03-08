@@ -2,13 +2,17 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls how selected game objects
- *      would spawn in the game.
+ * Description: 
+ *      Controls how selected game objects spawn in the game.
  * 
- * How to use the script:
- *      - Create a Spawner object for each object to be spawned
+ * How to use:
+ *      - Create a Spawner object then add left and right 
+ *          border objects as its children
  *      - Attach the script to the Spawner object
+ *      - Create a prefab of the Spawner object
+ *      - Add an instance of the Spawner prefab in the 
+ *          scene, for each of the objects to be spawned
+ *      - Assign the object to be spawned and the spawn interval
  * **************************************************/
 
 // libraries

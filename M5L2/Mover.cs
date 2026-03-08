@@ -2,12 +2,12 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the operation of the 
- *      obstacles and collectibles in the game.
+ * Description: 
+ *      Controls the operation of the obstacles (asteroid)
+ *      and collectibles (star) in the game.
  * 
- * How to use the script:
- *      - Create the obstacle and colletible items
+ * How to use:
+ *      - Create the obstacle and colletible objects
  *      - Setup the necessary sprites
  *      - Attach the script to the both objects
  *      - Make a prefab out of the objects

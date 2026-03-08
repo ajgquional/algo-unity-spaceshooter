@@ -2,12 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program handles the collision between
- *      the obstacle game object and the Player.
+ * Description: 
+ *      Handles the collision between the obstacle 
+ *      game object and the Player.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the obstacle object
+ *      - Ensure that the obstacle object has a 
+ *          Collider 2D component
  * **************************************************/
 
 // libraries

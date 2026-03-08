@@ -2,14 +2,17 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the operation of the 
- *      player in the sample 2D Space Shooter game.
+ * Description: 
+ *      Controls the operation of the player spaceship:
+ *          - movement via mouse cursor or finger press
+ *          - shooting projectiles
  * 
- * How to use the script:
+ * How to use:
  *      - Create the Player object
- *      - Setup the necessary sprite inside the Player object
- *      - Make sure that the Player object has a Circle Collider 2D component
+ *      - Setup the necessary sprite inside the Player 
+ *          object
+ *      - Make sure that the Player object has a Circle 
+ *          Collider 2D component
  *      - Attach the script to the Player object
  * **************************************************/
 
@@ -24,11 +27,11 @@ public class Player : MonoBehaviour
 
     public Projectile projectilePrefab;     // holder for the assigned projectile prefab
 
-    public float shootInterval;             // delay between projectile shots
+    public float shootInterval = 0.5f;      // delay between projectile shots
     public float shootTimer;                // start value of the timer (which would be updated)
 
     public Transform shootPoint;            // where the ship's projectile would start from
-    
+
     // continuously move the ship (that is, check if the player is pressing the left mouse button)
     // also, automatically shoot projectiles from the ship
     void Update()
@@ -60,7 +63,7 @@ public class Player : MonoBehaviour
     }
 
     void Shoot()
-    {   
+    {
         // clone the projectile if shootTimer goes below 0
         // projectile starts from the set shootPoint position in the ship
         // after cloning the projectile, re-assign the set shootInterval to shootTimer

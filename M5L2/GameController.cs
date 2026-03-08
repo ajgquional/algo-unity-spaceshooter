@@ -2,12 +2,12 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the complexity of the game, 
- *      maintains in-game statistics, manages the generation
- *      of opponents, and does probability calculations.
+ * Description: 
+ *      Controls the difficulty of the game, maintains 
+ *      in-game statistics, manages the spawning
+ *      of obstacles, and does probability calculations.
  * 
- * How to use the script:
+ * How to use:
  *      - Create a Game Controller object
  *      - Attach the script to the Game Controller object
  * **************************************************/

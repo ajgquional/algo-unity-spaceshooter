@@ -2,14 +2,13 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the operation of the 
- *      Player's projectile.
+ * Description: 
+ *      Implements the operation of the Player's projectile.
  * 
- * How to use the script:
+ * How to use:
  *      - Create a projectile object
  *      - Setup the necessary projectile sprite
- *      - Make sure that the projectile has a Collider component
+ *      - Make sure that the projectile has a Collider 2D component
  *      - Attach the script to the projectile object
  * **************************************************/
 

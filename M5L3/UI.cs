@@ -2,15 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program handles the operation of UI, 
- *      specifically, the update on the player's
- *      points as well as the display of the defeat 
- *      window.
+ * Description: 
+ *      Handles the operation of UI, updating the points 
+ *      as well as displaying the defeat window.
  * 
- * How to use the script:
+ * How to use:
  *      - Add the ready-made Space Shooter UI object
- *      - Attach the script to the Player
+ *          to the scene
+ *      - Attach the script to the UI object
  *      - Setup in the Inspector the method to be 
  *         run when the Restart button is pressed
  * **************************************************/

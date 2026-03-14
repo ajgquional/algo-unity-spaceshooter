@@ -2,17 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the operation of the 
- *      Player's projectile, but this time, updated 
- *      for the game to produce an animation and 
- *      effect (visual and sound) when the obstacle 
- *      is destroyed.
+ * Description: 
+ *      Implements the operation of the Player's projectile.
+ *      Also includes an animation and effect (visual and 
+ *      sound) when the obstacle is destroyed.
  * 
- * How to use the script:
+ * How to use:
  *      - Create a projectile object
  *      - Setup the necessary projectile sprite
- *      - Make sure that the projectile has a Collider component
+ *      - Make sure that the projectile has a Collider 2D component
  *      - Attach the script to the projectile object
  *      - Assign the asteroid explosion effect asset to the 
  *          explosionEffect field in the Inspector

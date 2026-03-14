@@ -2,18 +2,19 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program handles the operation of the 
- *      main menu (that is, whether to start the 
- *      game when the Start button is pressed, or
- *      to stop the game when the Exit button is 
- *      pressed).
+ * Description: 
+ *      Handles the operation of the main menu: the 
+ *      game starts when the Start button is pressed, 
+ *      or stops the game when the Exit button is 
+ *      pressed.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the MainMenu object
  *          under the UI object
  *      - Setup in the Inspector the method to be 
  *          executed when the buttons are pressed
+ *      - Set the name of the scene to be loaded 
+ *          when the Start button is pressed
  * **************************************************/
 
 // libraries

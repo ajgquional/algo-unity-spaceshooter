@@ -2,21 +2,21 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program handles the collision between
- *      the obstacle game object and the Player, but 
- *      this time, updated for the game to produce 
- *      an animation and effect (visual and sound) 
- *      when the obstacle hits the Player.
- *      
- *      Also, the program randomizes the size and 
- *      rotation of the obstacle to make the game 
- *      more challenging.
+ * Description: 
+ *      Handles the collision between the obstacle 
+ *      game object and the Player. Also includes an 
+ *      animation and effect (visual and sound) when 
+ *      the obstacle hits the Player. Moreover, the 
+ *      size and rotation of the obstacles are 
+ *      randomized to make the game more challenging.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the obstacle object
- *      - Assign the player explosion effect asset to the 
- *          playerExplosionEffect field in the Inspector
+ *      - Ensure that the obstacle object has a 
+ *          Collider 2D component
+ *      - Assign the player explosion effect asset 
+ *          to the playerExplosionEffect field in the 
+ *          Inspector
  * **************************************************/
 
 // libraries

@@ -2,17 +2,18 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program handles the collision between
- *      the collectible game object and the Player, 
- *      but this time, updated for the game to 
- *      produce an animation and effect (visual and
- *      sound) when the collectible item is collected.
+ * Description: 
+ *      Handles the collision between the collectible 
+ *      game object and the Player. Also includes an 
+ *      animation and effect (visual and sound) when 
+ *      the collectible item is collected.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the collectible object
- *      - Assign the pickup effect asset to the pickupEffect
- *          field in the Inspector
+ *      - Ensure that the collectible object has a 
+ *          Collider 2D component
+ *      - Assign the pickup effect asset to the 
+ *          pickupEffect field in the Inspector
  * **************************************************/
 
 // libraries
